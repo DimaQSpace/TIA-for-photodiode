@@ -2,19 +2,24 @@
 FileName = TIA_For_Photodiode.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : TIA_For_Photodiode.GBO
+Generating : Bottom Paste
+      File : TIA_For_Photodiode.GBP
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D27
-    D28
+    D15
+    D16
+    D37
+    D38
     D39
+    D40
+    D41
 *************************************************************
 
 *************************************************************
@@ -29,43 +34,37 @@ Generating : Top Paste
 
 
 Used DCodes :
-    D13
-    D14
     D15
     D16
     D17
+    D18
+    D19
+    D20
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : TIA_For_Photodiode.GTO
+Generating : Bottom Solder
+      File : TIA_For_Photodiode.GBS
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Bottom Solder
 
-
-Used DCodes :
-    D10
-    D11
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Power
-      File : TIA_For_Photodiode.G2
-
-    Adding Layer      : Power
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
-    D24
+    D21
+    D22
     D27
+    D28
     D29
     D30
-    D31
-    D32
+    D37
+    D38
+    D39
+    D41
+    D42
 *************************************************************
 
 *************************************************************
@@ -80,34 +79,47 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D18
-    D19
-    D20
     D21
     D22
     D23
     D24
     D25
     D26
-*************************************************************
-
-*************************************************************
-Generating : GND
-      File : TIA_For_Photodiode.G1
-
-    Adding Layer      : GND
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D24
     D27
     D28
     D29
     D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : TIA_For_Photodiode.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D13
+    D14
     D31
+    D32
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : TIA_For_Photodiode.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
 *************************************************************
 
 *************************************************************
@@ -120,37 +132,58 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D12
-    D13
+    D11
+    D14
+    D15
     D16
-    D24
     D27
-    D28
-    D29
     D30
     D31
     D32
     D33
     D34
     D35
-    D36
     D37
+    D38
+    D39
+    D40
+    D41
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : TIA_For_Photodiode.GBP
+Generating : Power
+      File : TIA_For_Photodiode.G2
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Power
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D13
-    D16
+    D14
+    D27
+    D30
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : TIA_For_Photodiode.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D27
+    D30
+    D31
+    D32
     D33
     D34
     D35
@@ -166,41 +199,21 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D12
-    D13
+    D11
     D14
     D15
     D16
     D17
-    D24
+    D18
+    D19
+    D20
     D27
-    D28
-    D29
     D30
     D31
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : TIA_For_Photodiode.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D21
-    D23
-    D24
-    D25
-    D26
+    D32
     D33
+    D34
     D35
-    D38
 *************************************************************
 
 *************************************************************
@@ -209,6 +222,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D40
+    D44
 *************************************************************
 
