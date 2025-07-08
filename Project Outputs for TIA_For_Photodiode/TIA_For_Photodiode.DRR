@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: TIA_For_Photodiode.PcbDoc   28.06.2025  18:05:26
+NCDrill File Report For: TIA_For_Photodiode.PcbDoc   08.07.2025  14:40:22
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,12 +7,11 @@ ASCII RoundHoles File : TIA_For_Photodiode.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.2mm (8mil)                                              Round             4         PTH        9.70mm (0.38inch)
-T2      0.3mm (12mil)                                             Round             43        PTH        86.61mm (3.41inch)
-T3      0.6mm (24mil)                                             Round             7         PTH        7.50mm (0.30inch)
-T4      0.8mm (31mil)                                             Round             3         PTH        4.34mm (0.17inch)
-T5      2.2mm (87mil)                                             Round             3         NPTH       38.76mm (1.53inch)
+T1      0.3mm (12mil)                                             Round             96        PTH        166.67mm (6.56inch)
+T2      0.6mm (24mil)                                             Round             7         PTH        7.50mm (0.30inch)
+T3      0.8mm (31mil)                                             Round             3         PTH        4.34mm (0.17inch)
+T4      2.2mm (87mil)                                             Round             3         NPTH       38.76mm (1.53inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              60
+Totals                                                                              109
 
 Total Processing Time (hh:mm:ss) : 00:00:00
