@@ -1,0 +1,32 @@
+% !TeX root = mainText.tex
+
+\documentclass[a4paper, 12pt]{article}
+
+%\usepackage[margin=0.1in]{geometry}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+% --- Настройка \section ---
+\titleformat{\section}
+  {\normalfont\large\bfseries}   % шрифт: обычный, крупный, полужирный
+  {\thesection.}                 % нумерация: 1. 2. 3.
+  {1em}                          % расстояние между номером и текстом
+  {}                             % код до текста (пусто)
+
+\titlespacing*{\section}
+  {0pt}{2ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+% --- Настройка \subsection ---
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}
+  {\thesubsection.}
+  {1em}
+  {}
+
+\titlespacing*{\subsection}
+  {0pt}{1.5ex plus .5ex minus .2ex}{1ex plus .2ex}
